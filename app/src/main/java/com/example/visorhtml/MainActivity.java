@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         webview = findViewById(R.id.wbpagina);
         webview.loadUrl("file:///android_asset/Blogger/index.html");
         webview.getSettings().setJavaScriptEnabled(true);
+        //Mejoras en proceso...
     }
 }
